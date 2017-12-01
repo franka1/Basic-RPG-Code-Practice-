@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2F343B1FCA3C02000C5338 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2F34391FCA3C02000C5338 /* Character.cpp */; };
+		EA2F343E1FCA4999000C5338 /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2F343C1FCA4999000C5338 /* Item.cpp */; };
+		EA2F34411FCA4DBE000C5338 /* Cleric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2F343F1FCA4DBE000C5338 /* Cleric.cpp */; };
+		EA2F34441FCA4F6D000C5338 /* Knight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2F34421FCA4F6D000C5338 /* Knight.cpp */; };
+		EA2F34471FCA500D000C5338 /* Wizard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2F34451FCA500D000C5338 /* Wizard.cpp */; };
+		EA2F344A1FCA540F000C5338 /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2F34481FCA540F000C5338 /* Weapon.cpp */; };
+		EA2F344E1FCB8472000C5338 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2F344C1FCB8472000C5338 /* Enemy.cpp */; };
 		EA39EE601E07D310001CD214 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA39EE5F1E07D310001CD214 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +30,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EA2F34391FCA3C02000C5338 /* Character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		EA2F343A1FCA3C02000C5338 /* Character.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
+		EA2F343C1FCA4999000C5338 /* Item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
+		EA2F343D1FCA4999000C5338 /* Item.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Item.hpp; sourceTree = "<group>"; };
+		EA2F343F1FCA4DBE000C5338 /* Cleric.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cleric.cpp; sourceTree = "<group>"; };
+		EA2F34401FCA4DBE000C5338 /* Cleric.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cleric.hpp; sourceTree = "<group>"; };
+		EA2F34421FCA4F6D000C5338 /* Knight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Knight.cpp; sourceTree = "<group>"; };
+		EA2F34431FCA4F6D000C5338 /* Knight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Knight.hpp; sourceTree = "<group>"; };
+		EA2F34451FCA500D000C5338 /* Wizard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wizard.cpp; sourceTree = "<group>"; };
+		EA2F34461FCA500D000C5338 /* Wizard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Wizard.hpp; sourceTree = "<group>"; };
+		EA2F34481FCA540F000C5338 /* Weapon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Weapon.cpp; sourceTree = "<group>"; };
+		EA2F34491FCA540F000C5338 /* Weapon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Weapon.hpp; sourceTree = "<group>"; };
+		EA2F344B1FCA5627000C5338 /* Common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Common.hpp; sourceTree = "<group>"; };
+		EA2F344C1FCB8472000C5338 /* Enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		EA2F344D1FCB8472000C5338 /* Enemy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enemy.hpp; sourceTree = "<group>"; };
 		EA39EE5C1E07D310001CD214 /* C++ Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA39EE5F1E07D310001CD214 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +79,22 @@
 		EA39EE5E1E07D310001CD214 /* C++ Practice */ = {
 			isa = PBXGroup;
 			children = (
+				EA2F344B1FCA5627000C5338 /* Common.hpp */,
 				EA39EE5F1E07D310001CD214 /* main.cpp */,
+				EA2F343C1FCA4999000C5338 /* Item.cpp */,
+				EA2F343D1FCA4999000C5338 /* Item.hpp */,
+				EA2F34481FCA540F000C5338 /* Weapon.cpp */,
+				EA2F34491FCA540F000C5338 /* Weapon.hpp */,
+				EA2F34391FCA3C02000C5338 /* Character.cpp */,
+				EA2F343A1FCA3C02000C5338 /* Character.hpp */,
+				EA2F344C1FCB8472000C5338 /* Enemy.cpp */,
+				EA2F344D1FCB8472000C5338 /* Enemy.hpp */,
+				EA2F34421FCA4F6D000C5338 /* Knight.cpp */,
+				EA2F34431FCA4F6D000C5338 /* Knight.hpp */,
+				EA2F343F1FCA4DBE000C5338 /* Cleric.cpp */,
+				EA2F34401FCA4DBE000C5338 /* Cleric.hpp */,
+				EA2F34451FCA500D000C5338 /* Wizard.cpp */,
+				EA2F34461FCA500D000C5338 /* Wizard.hpp */,
 			);
 			path = "C++ Practice";
 			sourceTree = "<group>";
@@ -88,7 +125,7 @@
 		EA39EE541E07D310001CD214 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Alex Frank";
 				TargetAttributes = {
 					EA39EE5B1E07D310001CD214 = {
@@ -119,7 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2F344E1FCB8472000C5338 /* Enemy.cpp in Sources */,
+				EA2F343E1FCA4999000C5338 /* Item.cpp in Sources */,
+				EA2F34411FCA4DBE000C5338 /* Cleric.cpp in Sources */,
+				EA2F34441FCA4F6D000C5338 /* Knight.cpp in Sources */,
 				EA39EE601E07D310001CD214 /* main.cpp in Sources */,
+				EA2F34471FCA500D000C5338 /* Wizard.cpp in Sources */,
+				EA2F344A1FCA540F000C5338 /* Weapon.cpp in Sources */,
+				EA2F343B1FCA3C02000C5338 /* Character.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +179,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -143,7 +189,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -182,7 +232,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -190,7 +242,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -246,6 +302,7 @@
 				EA39EE651E07D310001CD214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,21 @@
 #ifndef Wizard_hpp
 #define Wizard_hpp
 
-#include <stdio.h>
+#include "Character.hpp"
+#include "Enemy.hpp"
+
+class Wizard: public Character {
+public:
+    Wizard(string new_name);
+    void attack(Character *target);
+    bool use_skill(Character *enemy);
+    void level_up();
+    
+    //Skills:
+    map<string, bool> skills;
+    bool fireball(Character *target);
+    bool ice_prison(Character *target);
+    bool lightning_strike(Character *target);
+};
 
 #endif /* Wizard_hpp */

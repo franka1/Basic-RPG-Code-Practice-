@@ -9,6 +9,21 @@
 #ifndef Knight_hpp
 #define Knight_hpp
 
-#include <stdio.h>
+#include "Character.hpp"
+#include "Enemy.hpp"
+
+class Knight: public Character {
+public:
+    Knight(string new_name);
+    void attack(Character *target);
+    bool use_skill(Character *enemy);
+    void level_up();
+    
+    //Skills:
+    map<string, bool> skills;
+    bool power_swing(Character *target);
+    bool double_attack(Character *target);
+    bool spin_attack(Character *target);
+};
 
 #endif /* Knight_hpp */

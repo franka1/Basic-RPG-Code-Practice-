@@ -9,6 +9,12 @@
 #ifndef Enemy_hpp
 #define Enemy_hpp
 
-#include <stdio.h>
+#include "Common.hpp"
+#include "Character.hpp"
+
+class Enemy: public Character {
+public:
+    Enemy(string new_name);
+};
 
 #endif /* Enemy_hpp */

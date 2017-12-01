@@ -9,6 +9,12 @@
 #ifndef Item_hpp
 #define Item_hpp
 
-#include <stdio.h>
+#include "Common.hpp"
+
+class Item {
+public:
+    string name;
+    int sell_value;
+};
 
 #endif /* Item_hpp */

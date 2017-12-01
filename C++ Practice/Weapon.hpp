@@ -9,6 +9,14 @@
 #ifndef Weapon_hpp
 #define Weapon_hpp
 
-#include <stdio.h>
+#include "Item.hpp"
+
+class Weapon: public Item {
+public:
+    int power;
+    Weapon_type type;
+    
+    Weapon(string new_name, Weapon_type new_type, int new_power, int new_value);
+};
 
 #endif /* Weapon_hpp */
