@@ -77,16 +77,46 @@ void Character::combat(Character *enemy) {
         
         if (attack) {
             this->attack(enemy);
+            
         } else if (skill) {
             //If no mana to use skill, skill will fail. Player must choose different action.
             if(!this->use_skill(enemy)) {
                 continue;
             }
-        } else if (item) {
             
+        } else if (item) {
+            int list_index = 1;
+            for (auto const& i : inventory) {
+                cout << "[" << list_index << "] " << i->name << " " << i->quantity << endl;
+                list_index++;
+            }
+            //TODO: Deal with invalid input here
+            string index_string;
+            getline(cin, index_string);
+            int index = std::stoi(index_string);
+            
+            cout << "Use " << inventory[index-1]->name << " on [1] " << this->name;
+            cout << " or [2] " << enemy->name << "?" << endl;
+            
+            string target_string;
+            getline(cin, target_string);
+            int target = std::stoi(target_string);
+            
+            //Attempt to use item (checks quantity)
+            if (target == 1) {
+                if(!inventory[index-1]->use(this)) {
+                    continue;
+                };
+            } else if (target == 2) {
+                if(!inventory[index-1]->use(enemy)) {
+                    continue;
+                };
+            }
+               
         } else if (run) {
             cout << this->name << " bravely ran away!" << endl;
-            break;
+            return;
+            
         } else {
             cout << "Some strange error led us astray." << endl;
         }
@@ -99,6 +129,8 @@ void Character::combat(Character *enemy) {
             break;
         }
     }
+    
+    //Enemy has zero or less HP
     if (this->cur_hp > 0) {
         cout << this->name << " defeated " << enemy->name << "!" << endl;
     } else {

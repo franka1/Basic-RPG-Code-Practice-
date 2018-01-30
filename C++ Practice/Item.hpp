@@ -15,6 +15,7 @@ class Item {
 public:
     string name;
     int sell_value;
+    int quantity;
 };
 
 #endif /* Item_hpp */

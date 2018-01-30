@@ -11,7 +11,7 @@
 Knight::Knight(string new_name) {
     job = knight;
     wep_type = sword;
-    wep = new Weapon("Basic Sword", sword, 2, 0);
+    wep = new Weapon("Basic Sword", sword, 2, 0);   //default weapon
     name = new_name;
     level = 1;
     max_hp = 10;
@@ -77,18 +77,21 @@ bool Knight::use_skill(Character *enemy) {
         }
     }
     if (power_swing) {
+        //Attempt to use Power Swing
         if (this->power_swing(enemy)) {
             return true;
         } else {
             return false;
         }
     } else if (double_attack) {
+        //Attempt to use Double Attack
         if (this->double_attack(enemy)) {
             return true;
         } else {
             return false;
         }
     } else if (spin_attack) {
+        //Attempt to use Spin Attack
         if (this->spin_attack(enemy)) {
             return true;
         } else {

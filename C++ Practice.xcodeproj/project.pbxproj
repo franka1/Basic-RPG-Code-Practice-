@@ -15,6 +15,8 @@
 		EA2F344A1FCA540F000C5338 /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2F34481FCA540F000C5338 /* Weapon.cpp */; };
 		EA2F344E1FCB8472000C5338 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2F344C1FCB8472000C5338 /* Enemy.cpp */; };
 		EA39EE601E07D310001CD214 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA39EE5F1E07D310001CD214 /* main.cpp */; };
+		EAB7BA0B200FFFD5004745EE /* Consumable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BA09200FFFD5004745EE /* Consumable.cpp */; };
+		EAB7BA0E2010052C004745EE /* Potion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BA0C2010052C004745EE /* Potion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +49,10 @@
 		EA2F344D1FCB8472000C5338 /* Enemy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enemy.hpp; sourceTree = "<group>"; };
 		EA39EE5C1E07D310001CD214 /* C++ Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA39EE5F1E07D310001CD214 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EAB7BA09200FFFD5004745EE /* Consumable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Consumable.cpp; sourceTree = "<group>"; };
+		EAB7BA0A200FFFD5004745EE /* Consumable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Consumable.hpp; sourceTree = "<group>"; };
+		EAB7BA0C2010052C004745EE /* Potion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Potion.cpp; sourceTree = "<group>"; };
+		EAB7BA0D2010052C004745EE /* Potion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Potion.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				EA2F343D1FCA4999000C5338 /* Item.hpp */,
 				EA2F34481FCA540F000C5338 /* Weapon.cpp */,
 				EA2F34491FCA540F000C5338 /* Weapon.hpp */,
+				EAB7BA09200FFFD5004745EE /* Consumable.cpp */,
+				EAB7BA0A200FFFD5004745EE /* Consumable.hpp */,
+				EAB7BA0C2010052C004745EE /* Potion.cpp */,
+				EAB7BA0D2010052C004745EE /* Potion.hpp */,
 				EA2F34391FCA3C02000C5338 /* Character.cpp */,
 				EA2F343A1FCA3C02000C5338 /* Character.hpp */,
 				EA2F344C1FCB8472000C5338 /* Enemy.cpp */,
@@ -160,8 +170,10 @@
 				EA2F343E1FCA4999000C5338 /* Item.cpp in Sources */,
 				EA2F34411FCA4DBE000C5338 /* Cleric.cpp in Sources */,
 				EA2F34441FCA4F6D000C5338 /* Knight.cpp in Sources */,
+				EAB7BA0E2010052C004745EE /* Potion.cpp in Sources */,
 				EA39EE601E07D310001CD214 /* main.cpp in Sources */,
 				EA2F34471FCA500D000C5338 /* Wizard.cpp in Sources */,
+				EAB7BA0B200FFFD5004745EE /* Consumable.cpp in Sources */,
 				EA2F344A1FCA540F000C5338 /* Weapon.cpp in Sources */,
 				EA2F343B1FCA3C02000C5338 /* Character.cpp in Sources */,
 			);

@@ -11,6 +11,7 @@
 
 #include "Common.hpp"
 #include "Weapon.hpp"
+#include "Consumable.hpp"
 
 enum Char_class {
     wizard,
@@ -30,6 +31,7 @@ public:
     int cur_hp;
     int max_mp;
     int cur_mp;
+    std::vector<Consumable*> inventory;
     
     void take_damage(int amount);
     void gain_health(int amount);

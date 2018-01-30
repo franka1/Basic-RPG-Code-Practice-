@@ -11,7 +11,7 @@
 Cleric::Cleric(string new_name) {
     job = cleric;
     wep_type = mace;
-    wep = new Weapon("Basic Mace", mace, 1, 0);
+    wep = new Weapon("Basic Mace", mace, 1, 0);   //default weapon
     name = new_name;
     level = 1;
     max_hp = 8;
@@ -76,18 +76,21 @@ bool Cleric::use_skill(Character *enemy) {
         }
     }
     if (heal) {
+        //Attempt to use Heal
         if (this->heal(this)) {
             return true;
         } else {
             return false;
         }
     } else if (smite) {
+        //Attempt to use Smite
         if (this->smite(enemy)) {
             return true;
         } else {
             return false;
         }
     } else if (cure) {
+        //Attempt to use Cure
         if (this->cure(this)) {
             return true;
         } else {

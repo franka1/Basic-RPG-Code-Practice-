@@ -16,7 +16,7 @@ public:
     int power;
     Weapon_type type;
     
-    Weapon(string new_name, Weapon_type new_type, int new_power, int new_value);
+    Weapon(string new_name, Weapon_type new_type, int new_power, int new_value, int new_quant = 1);
 };
 
 #endif /* Weapon_hpp */

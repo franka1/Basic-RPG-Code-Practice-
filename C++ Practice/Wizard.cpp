@@ -11,7 +11,7 @@
 Wizard::Wizard(string new_name) {
     job = wizard;
     wep_type = staff;
-    wep = new Weapon("Basic Staff", staff, 3, 0);
+    wep = new Weapon("Basic Staff", staff, 3, 0);   //default weapon
     name = new_name;
     level = 1;
     max_hp = 5;
@@ -66,9 +66,9 @@ bool Wizard::use_skill(Character *enemy) {
     bool lightning_strike = false;
     while (!valid_com) {
         getline(cin, command);
-        fireball = command == "Fireball" || command == "fireball" || command == "1";
-        ice_prison = command == "Ice Prison" || command == "ice prison" || command == "2";
-        lightning_strike = command == "Lightning Strike" || command == "lightning strike" || command == "3";
+        fireball = (command == "Fireball" || command == "fireball" || command == "1");
+        ice_prison = (command == "Ice Prison" || command == "ice prison" || command == "2");
+        lightning_strike = (command == "Lightning Strike" || command == "lightning strike" || command == "3");
         if (fireball || ice_prison || lightning_strike) {
             valid_com = true;
         } else {
@@ -82,12 +82,14 @@ bool Wizard::use_skill(Character *enemy) {
         } else {
             return false;
         }
+        //attempt to use Ice Prison
     } else if (ice_prison) {
         if(this->ice_prison(enemy)) {
             return true;
         } else {
             return false;
         }
+        //attempt to use Lighting Strike
     } else if (lightning_strike) {
         if (this->lightning_strike(enemy)) {
             return true;

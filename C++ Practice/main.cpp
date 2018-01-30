@@ -11,6 +11,7 @@
 #include "Knight.hpp"
 #include "Cleric.hpp"
 #include "Wizard.hpp"
+#include "Potion.hpp"
 
 using namespace std;
 
@@ -19,16 +20,17 @@ int main() {
     Wizard *Rolain = new Wizard("Rolain");
     Knight *Kirios = new Knight("Kirios");
     
-    //Basic scripted combat test
+    //Test level up/skill learning
     Kirios->level_up();
     Kirios->level_up();
     
-    while (Kirios->cur_hp > 0 && Axel->cur_hp > 0) {
+    //Basic scripted combat test
+    /*while (Kirios->cur_hp > 0 && Axel->cur_hp > 0) {
         Axel->heal(Axel);
         Kirios->double_attack(Axel);
         cout << "Kirios' current health is: " << Kirios->cur_hp << endl;
         cout << "Axel's current health is: " << Axel->cur_hp << endl;
-    }
+    }*/
     //Restore stats
     Axel->cur_hp = Axel->max_hp;
     Axel->cur_mp = Axel->max_mp;
@@ -38,7 +40,7 @@ int main() {
     cout << endl;
     
     //Skill test
-    Rolain->level_up();
+    /*Rolain->level_up();
     
     for (const auto& kv: Rolain->skills) {
         if (kv.second) {
@@ -48,7 +50,13 @@ int main() {
         }
     }
     
-    cout << endl;
+    cout << endl;*/
+    
+    //Inventory test
+    Potion *healpot = new Potion("Heal Potion", 5, 3);
+    Potion *acidpot = new Potion("Acid Potion", 5, 2);
+    Kirios->inventory.push_back(healpot);
+    Kirios->inventory.push_back(acidpot);
     
     //Test combat() method
     Rolain->cur_hp = 100;
@@ -58,5 +66,10 @@ int main() {
 }
 
 //Notes:
-//TODO: Make Skills objects. They have a cost, a name, and a "use" method that contain the effect.
-//TODO: Skill's "use()" method should return a bool. True if succesful, false otherwise.
+
+//Classification:   An ITEM is an object that can be stored in the inventory.
+//                  A CONSUMABLE is an ITEM with a "use" method.
+//                  A WEAPON can be equipped and has a "power" stat.
+//                  Armor and Quest items to come later.
+
+//TODO: add miss chances to skills/attacks
