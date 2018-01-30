@@ -86,8 +86,10 @@ void Character::combat(Character *enemy) {
             
         } else if (item) {
             int list_index = 1;
+            cout << "| Key |     Item     | Qty |" << endl;
+            cout << "|-----|--------------|-----|" << endl;
             for (auto const& i : inventory) {
-                cout << "[" << list_index << "] " << i->name << " " << i->quantity << endl;
+                cout << "| [" << list_index << "] | " << i->name << "  |  " << i->quantity << "  |"<< endl;
                 list_index++;
             }
             //TODO: Deal with invalid input here

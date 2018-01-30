@@ -17,6 +17,8 @@
 		EA39EE601E07D310001CD214 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA39EE5F1E07D310001CD214 /* main.cpp */; };
 		EAB7BA0B200FFFD5004745EE /* Consumable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BA09200FFFD5004745EE /* Consumable.cpp */; };
 		EAB7BA0E2010052C004745EE /* Potion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAB7BA0C2010052C004745EE /* Potion.cpp */; };
+		EACBF68620201ED6000B1B4A /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EACBF68420201ED6000B1B4A /* Map.cpp */; };
+		EACBF68920201EF0000B1B4A /* Map_Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EACBF68720201EF0000B1B4A /* Map_Tile.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +55,10 @@
 		EAB7BA0A200FFFD5004745EE /* Consumable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Consumable.hpp; sourceTree = "<group>"; };
 		EAB7BA0C2010052C004745EE /* Potion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Potion.cpp; sourceTree = "<group>"; };
 		EAB7BA0D2010052C004745EE /* Potion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Potion.hpp; sourceTree = "<group>"; };
+		EACBF68420201ED6000B1B4A /* Map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		EACBF68520201ED6000B1B4A /* Map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		EACBF68720201EF0000B1B4A /* Map_Tile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map_Tile.cpp; sourceTree = "<group>"; };
+		EACBF68820201EF0000B1B4A /* Map_Tile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Map_Tile.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				EA2F34401FCA4DBE000C5338 /* Cleric.hpp */,
 				EA2F34451FCA500D000C5338 /* Wizard.cpp */,
 				EA2F34461FCA500D000C5338 /* Wizard.hpp */,
+				EACBF68420201ED6000B1B4A /* Map.cpp */,
+				EACBF68520201ED6000B1B4A /* Map.hpp */,
+				EACBF68720201EF0000B1B4A /* Map_Tile.cpp */,
+				EACBF68820201EF0000B1B4A /* Map_Tile.hpp */,
 			);
 			path = "C++_Practice";
 			sourceTree = "<group>";
@@ -166,11 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACBF68920201EF0000B1B4A /* Map_Tile.cpp in Sources */,
 				EA2F344E1FCB8472000C5338 /* Enemy.cpp in Sources */,
 				EA2F343E1FCA4999000C5338 /* Item.cpp in Sources */,
 				EA2F34411FCA4DBE000C5338 /* Cleric.cpp in Sources */,
 				EA2F34441FCA4F6D000C5338 /* Knight.cpp in Sources */,
 				EAB7BA0E2010052C004745EE /* Potion.cpp in Sources */,
+				EACBF68620201ED6000B1B4A /* Map.cpp in Sources */,
 				EA39EE601E07D310001CD214 /* main.cpp in Sources */,
 				EA2F34471FCA500D000C5338 /* Wizard.cpp in Sources */,
 				EAB7BA0B200FFFD5004745EE /* Consumable.cpp in Sources */,

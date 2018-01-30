@@ -12,6 +12,8 @@
 #include "Cleric.hpp"
 #include "Wizard.hpp"
 #include "Potion.hpp"
+#include "Map.hpp"
+#include "Map_Tile.hpp"
 
 using namespace std;
 
@@ -59,9 +61,19 @@ int main() {
     Kirios->inventory.push_back(acidpot);
     
     //Test combat() method
-    Rolain->cur_hp = 100;
-    Kirios->combat(Rolain);
+    /*Rolain->cur_hp = 100;
+    Kirios->combat(Rolain);*/
     
+    Map *test_map = new Map();
+    test_map->generate_empty_map();
+    
+    
+    delete Axel;
+    delete Rolain;
+    delete Kirios;
+    delete healpot;
+    delete acidpot;
+    delete test_map;
     return 0;
 }
 
