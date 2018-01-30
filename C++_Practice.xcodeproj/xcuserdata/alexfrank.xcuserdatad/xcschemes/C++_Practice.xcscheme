@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA39EE5B1E07D310001CD214"
-               BuildableName = "C++ Practice"
-               BlueprintName = "C++ Practice"
-               ReferencedContainer = "container:C++ Practice.xcodeproj">
+               BuildableName = "C++_Practice"
+               BlueprintName = "C++_Practice"
+               ReferencedContainer = "container:C++_Practice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA39EE5B1E07D310001CD214"
-            BuildableName = "C++ Practice"
-            BlueprintName = "C++ Practice"
-            ReferencedContainer = "container:C++ Practice.xcodeproj">
+            BuildableName = "C++_Practice"
+            BlueprintName = "C++_Practice"
+            ReferencedContainer = "container:C++_Practice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA39EE5B1E07D310001CD214"
-            BuildableName = "C++ Practice"
-            BlueprintName = "C++ Practice"
-            ReferencedContainer = "container:C++ Practice.xcodeproj">
+            BuildableName = "C++_Practice"
+            BlueprintName = "C++_Practice"
+            ReferencedContainer = "container:C++_Practice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA39EE5B1E07D310001CD214"
-            BuildableName = "C++ Practice"
-            BlueprintName = "C++ Practice"
-            ReferencedContainer = "container:C++ Practice.xcodeproj">
+            BuildableName = "C++_Practice"
+            BlueprintName = "C++_Practice"
+            ReferencedContainer = "container:C++_Practice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

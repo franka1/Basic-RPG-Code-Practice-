@@ -47,7 +47,7 @@
 		EA2F344B1FCA5627000C5338 /* Common.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Common.hpp; sourceTree = "<group>"; };
 		EA2F344C1FCB8472000C5338 /* Enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
 		EA2F344D1FCB8472000C5338 /* Enemy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enemy.hpp; sourceTree = "<group>"; };
-		EA39EE5C1E07D310001CD214 /* C++ Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA39EE5C1E07D310001CD214 /* C++_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++_Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA39EE5F1E07D310001CD214 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EAB7BA09200FFFD5004745EE /* Consumable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Consumable.cpp; sourceTree = "<group>"; };
 		EAB7BA0A200FFFD5004745EE /* Consumable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Consumable.hpp; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		EA39EE531E07D310001CD214 = {
 			isa = PBXGroup;
 			children = (
-				EA39EE5E1E07D310001CD214 /* C++ Practice */,
+				EA39EE5E1E07D310001CD214 /* C++_Practice */,
 				EA39EE5D1E07D310001CD214 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,12 +77,12 @@
 		EA39EE5D1E07D310001CD214 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA39EE5C1E07D310001CD214 /* C++ Practice */,
+				EA39EE5C1E07D310001CD214 /* C++_Practice */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA39EE5E1E07D310001CD214 /* C++ Practice */ = {
+		EA39EE5E1E07D310001CD214 /* C++_Practice */ = {
 			isa = PBXGroup;
 			children = (
 				EA2F344B1FCA5627000C5338 /* Common.hpp */,
@@ -106,15 +106,15 @@
 				EA2F34451FCA500D000C5338 /* Wizard.cpp */,
 				EA2F34461FCA500D000C5338 /* Wizard.hpp */,
 			);
-			path = "C++ Practice";
+			path = "C++_Practice";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA39EE5B1E07D310001CD214 /* C++ Practice */ = {
+		EA39EE5B1E07D310001CD214 /* C++_Practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA39EE631E07D310001CD214 /* Build configuration list for PBXNativeTarget "C++ Practice" */;
+			buildConfigurationList = EA39EE631E07D310001CD214 /* Build configuration list for PBXNativeTarget "C++_Practice" */;
 			buildPhases = (
 				EA39EE581E07D310001CD214 /* Sources */,
 				EA39EE591E07D310001CD214 /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = "C++ Practice";
+			name = "C++_Practice";
 			productName = "C++ Practice";
-			productReference = EA39EE5C1E07D310001CD214 /* C++ Practice */;
+			productReference = EA39EE5C1E07D310001CD214 /* C++_Practice */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA39EE571E07D310001CD214 /* Build configuration list for PBXProject "C++ Practice" */;
+			buildConfigurationList = EA39EE571E07D310001CD214 /* Build configuration list for PBXProject "C++_Practice" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA39EE5B1E07D310001CD214 /* C++ Practice */,
+				EA39EE5B1E07D310001CD214 /* C++_Practice */,
 			);
 		};
 /* End PBXProject section */
@@ -298,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA39EE571E07D310001CD214 /* Build configuration list for PBXProject "C++ Practice" */ = {
+		EA39EE571E07D310001CD214 /* Build configuration list for PBXProject "C++_Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA39EE611E07D310001CD214 /* Debug */,
@@ -307,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA39EE631E07D310001CD214 /* Build configuration list for PBXNativeTarget "C++ Practice" */ = {
+		EA39EE631E07D310001CD214 /* Build configuration list for PBXNativeTarget "C++_Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA39EE641E07D310001CD214 /* Debug */,
