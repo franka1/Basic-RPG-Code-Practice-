@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA46ABEA2047BAF70022C62F /* AAG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA46ABE62047BAF70022C62F /* AAG.cpp */; };
-		EA46ABEB2047BAF70022C62F /* handle_reduc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA46ABE92047BAF70022C62F /* handle_reduc.cpp */; };
+		EA46ABEB2047BAF70022C62F /* Braid_Grp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA46ABE92047BAF70022C62F /* Braid_Grp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,9 +26,9 @@
 /* Begin PBXFileReference section */
 		EA46ABD92047B9BB0022C62F /* Braid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Braid; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA46ABE62047BAF70022C62F /* AAG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AAG.cpp; sourceTree = "<group>"; };
-		EA46ABE72047BAF70022C62F /* handle_reduc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = handle_reduc.hpp; sourceTree = "<group>"; };
+		EA46ABE72047BAF70022C62F /* Braid_Grp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Braid_Grp.hpp; sourceTree = "<group>"; };
 		EA46ABE82047BAF70022C62F /* AAG.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AAG.hpp; sourceTree = "<group>"; };
-		EA46ABE92047BAF70022C62F /* handle_reduc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = handle_reduc.cpp; sourceTree = "<group>"; };
+		EA46ABE92047BAF70022C62F /* Braid_Grp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Braid_Grp.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 			children = (
 				EA46ABE62047BAF70022C62F /* AAG.cpp */,
 				EA46ABE82047BAF70022C62F /* AAG.hpp */,
-				EA46ABE92047BAF70022C62F /* handle_reduc.cpp */,
-				EA46ABE72047BAF70022C62F /* handle_reduc.hpp */,
+				EA46ABE92047BAF70022C62F /* Braid_Grp.cpp */,
+				EA46ABE72047BAF70022C62F /* Braid_Grp.hpp */,
 			);
 			path = Braid;
 			sourceTree = "<group>";
@@ -128,7 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA46ABEB2047BAF70022C62F /* handle_reduc.cpp in Sources */,
+				EA46ABEB2047BAF70022C62F /* Braid_Grp.cpp in Sources */,
 				EA46ABEA2047BAF70022C62F /* AAG.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
