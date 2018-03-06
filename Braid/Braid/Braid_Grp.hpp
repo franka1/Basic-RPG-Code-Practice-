@@ -17,12 +17,14 @@
 #include <climits>
 
 class Braid_Grp {
-public:
     std::vector<char> elems;
     std::vector<char> inverses;
-    std::map<char,char> inverse_map;
     std::vector<char> all_elems;
+    
+public:
+    std::map<char,char> inverse_map;
     Braid_Grp(std::vector<char>& new_elems);
+    
     std::vector<char>& get_elems(int mode);
     void add_elems(char elem, char inverse);
     std::string inv(std::string braid);

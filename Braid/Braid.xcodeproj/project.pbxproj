@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EA46ABEA2047BAF70022C62F /* AAG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA46ABE62047BAF70022C62F /* AAG.cpp */; };
 		EA46ABEB2047BAF70022C62F /* Braid_Grp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA46ABE92047BAF70022C62F /* Braid_Grp.cpp */; };
+		EAB74BD0204E23030015A13D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAB74BCF204E23030015A13D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		EA46ABE72047BAF70022C62F /* Braid_Grp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Braid_Grp.hpp; sourceTree = "<group>"; };
 		EA46ABE82047BAF70022C62F /* AAG.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AAG.hpp; sourceTree = "<group>"; };
 		EA46ABE92047BAF70022C62F /* Braid_Grp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Braid_Grp.cpp; sourceTree = "<group>"; };
+		EAB74BCF204E23030015A13D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				EA46ABE82047BAF70022C62F /* AAG.hpp */,
 				EA46ABE92047BAF70022C62F /* Braid_Grp.cpp */,
 				EA46ABE72047BAF70022C62F /* Braid_Grp.hpp */,
+				EAB74BCF204E23030015A13D /* main.cpp */,
 			);
 			path = Braid;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				EA46ABEB2047BAF70022C62F /* Braid_Grp.cpp in Sources */,
 				EA46ABEA2047BAF70022C62F /* AAG.cpp in Sources */,
+				EAB74BD0204E23030015A13D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

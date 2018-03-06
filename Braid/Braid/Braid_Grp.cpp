@@ -201,33 +201,3 @@ std::string Braid_Grp::conj(std::string b1, std::string b2) {
 std::string Braid_Grp::conj(std::string braid, char elem) {
     return reduce(inverse_map[elem] + braid + elem);
 }
-
-int main(){
-    char init[] = {'a','f','b','e','c','d'};
-    std::vector<char> new_elems(init,init+6);
-    Braid_Grp *test = new Braid_Grp(new_elems);
-    
-    for(const auto &pair : test->inverse_map) {
-        std::cout << pair.first << " " << pair.second << "\n";
-    }
-    
-    test->add_elems('g','h');
-    
-    std::vector<char> test_get = test->get_elems(0);
-    std::cout << test_get.size() << "\n";
-    
-    std::cout << test->inv("abc") << "\n"; //should result in "def"
-    //std::cout << "WHY" << std::endl;
-    
-    std::cout << "\n";
-    std::string braid1 = "baedd";
-    std::cout << test->reduce(braid1) << "\n"; //same
-    std::string braid2 = "dbcbaeede";
-    std::cout << test->reduce(braid2) << "\n"; //same
-    std::string braid3 = "abacfec";
-    std::cout << test->reduce(braid3) << "\n"; //adbcc
-    std::cout << test->braid_eq(braid1, braid2) << "\n"; //True
-    std::cout << test->braid_eq(braid2, braid3) << "\n"; //False
-    std::cout << test->braid_eq(braid1, braid3) << "\n"; //False
-    return 0;
-}
